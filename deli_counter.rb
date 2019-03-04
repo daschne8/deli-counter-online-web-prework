@@ -28,13 +28,13 @@ def now_serving(katz_deli)
 end
 
 def my_method
-  @my_name = "Howard"
+  @@my_name = "Howard"
   return "fries"
   puts "potatoes"
   "bacon"
 end
 
-puts @my_name
+puts @@my_name
 
 binding.pry
 puts "goodbye from pry"
