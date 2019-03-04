@@ -18,6 +18,7 @@ def line
 end
 
 def take_a_number
+  $number += 1
   $katz_deli.push($number)
   num = $katz_deli.length
   puts "Welcome, #{$number}. You are number #{num} in line."
