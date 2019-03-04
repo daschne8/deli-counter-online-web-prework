@@ -28,7 +28,7 @@ def now_serving(katz_deli)
 end
 
 def my_method
-  "potatoes"
+  puts "potatoes"
 end
 
 binding.pry
