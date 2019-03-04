@@ -1,4 +1,7 @@
 require 'pry'
+
+# Change these methods so that instead of using a name, we just have a number -- which starts at 267
+# No method takes any arguments
 def line(places)
   line_string = ""
   if places.length == 0
