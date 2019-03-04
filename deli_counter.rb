@@ -26,7 +26,7 @@ def now_serving(katz_deli)
     puts "Currently serving #{serving}."
   end
 end
-
+@@my_name = ""
 def my_method
   @@my_name = "Howard"
   return "fries"
