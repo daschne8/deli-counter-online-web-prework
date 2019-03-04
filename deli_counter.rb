@@ -27,9 +27,9 @@ def now_serving(katz_deli)
   end
 end
 
-def my_method 
+def my_method
   "potatoes"
-end 
+end
 
 binding.pry
 puts "goodbye from pry"
